@@ -36,7 +36,7 @@ python gen_adj_mx.py  --sensor_ids_filename=data/sensor_graph/graph_sensor_ids.t
 
 ## Train the Model
 ```bash
-python dcrnn_seq2seq_train.py --config_filename=data/model/dcrnn_config.json
+python dcrnn_train.py --config_filename=data/model/dcrnn_config.json
 ```
 
 
